@@ -5,10 +5,9 @@
 void main()
 {
     float dia,mes,ano,numb_ped,matriz[100][4],conta1=0,conta2=0,conta3=0,p;
-    int contador=0,d=1,cont_letr=0,a,b;
+    int contador=0,d=1,cont_letr=0;
 
-    a=186;
-    b=254;
+    
     char prod_nom[100][15];
 
     printf("Insira o numero do pedido:\n");
@@ -30,7 +29,7 @@ void main()
             printf("\nInsira o nome do produto:\n");
             scanf("%s",&prod_nom[l]);
             
-            printf("\nInsira o pre‡o unitario:\n");
+            printf("\nInsira o preâ€¡o unitario:\n");
             scanf("%f",&matriz[l][1]);
 
             printf("\nInsira a quantidade:\n");
@@ -56,7 +55,7 @@ void main()
     printf("\nData do pedido: %.0f\\ %.0f\\ %.0f.",dia,mes,ano);
     escreveLinha();
     printf("\nConteudo do pedido:");
-    printf("\n\t\t|C¢digo:|Nome:\t\t|   Pre‡o Unit:\t| Quantidade:\t|  Subtotal:  |\n");
+    printf("\n\t\t|CÂ¢digo:|Nome:\t\t|   Preâ€¡o Unit:\t| Quantidade:\t|  Subtotal:  |\n");
    
     for(int l=0;l<p;l++)
         {
